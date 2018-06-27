@@ -15,7 +15,7 @@ of the certificate created by first step.
 
     $ nano sparrowfile
     
-    run_module "Azure::Web::Cert", %(
+    module_run "Azure::Web::Cert", %(
         domain => "app.domain.foo",
         thumbprint => "ABC010101H0A....",
         az-res-group => "my-az-grp",
