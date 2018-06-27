@@ -18,7 +18,7 @@
     "update-cert.json"
   ],
   "source-type" : "git",
-  "source-url" : "https://github.com/melezhik/sparrowdo-azure-web-cert.git",
+  "source-url" : "https://github.com/melezhik/sparrowdo-azure-web-cert-module.git",
   "support" : {
   },
   "tags" : [ ],
