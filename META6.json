@@ -4,13 +4,14 @@
   ],
   "build-depends" : [ ],
   "depends" : [
-    "Sparrowdo"
+    "Sparrow6"
   ],
   "description" : "Create SSL certificate  and bind domain for Azure web application",
   "license" : "NOASSERTION",
   "name" : "Sparrowdo::Azure::Web::Cert",
   "perl" : "6.*",
   "provides" : {
+    "Sparrow6::Azure::Web::Cert" : "lib/Sparrow6/Azure/Web/Cert.pm6",
     "Sparrowdo::Azure::Web::Cert" : "lib/Sparrowdo/Azure/Web/Cert.pm6"
   },
   "resources" : [

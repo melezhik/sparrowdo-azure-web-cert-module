@@ -1,0 +1,4 @@
+language: minimal
+
+script:
+- curl http://repo.westus.cloudapp.azure.com/rakudist/api/run/debian/melezhik/sparrowdo-azure-web-cert-module -s | bash

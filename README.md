@@ -7,6 +7,11 @@ Create SSL certificate  and bind domain for Azure web application:
 2. Create domain (`domain`) for app service (`app-service-name`) and certificate ( `thumbprint` ). Thumbprint should be the thumbprint 
 of the certificate created by first step.
 
+# Build Status
+
+[![Build Status](https://travis-ci.org/melezhik/sparrowdo-azure-web-cert-module.svg?branch=master)](https://travis-ci.org/melezhik/sparrowdo-azure-web-cert-module)
+
+
 # Prerequisites
 
 * Az cli
